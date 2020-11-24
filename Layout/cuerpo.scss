@@ -1,0 +1,176 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Muli', sans-serif;
+}
+.cuerpo{
+    width: 100%;
+    height: 1244px;
+    .Primero{
+        .Primero_uno{
+            padding: 40px;
+            text-align: center;
+            height: 128px;
+        }
+       
+    }
+    .Segundo{
+        width: 100%;
+        padding: 0 15%;
+        .Segundo_uno{
+            width: 100%;
+            .Segundo_uno_Pagina1{
+                width: 100%;
+                .Segundo_uno_A{
+                    display: inline-flex;
+                    width: 100%;
+                    .container:hover .overlay {
+                        height: 15%;
+                      }
+                    .container {
+                        margin: 10px;
+                        padding: 0;
+                        position: relative;
+                        width: 50%;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        .image {
+                            display: block;
+                            width: 100%;
+                            height: 300px;
+                        }
+                        .overlay {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            background: rgba(245, 245, 245, 0.9);
+                            overflow: hidden;
+                            width: 100%;
+                            height: 0;
+                            transition: .5s ease;
+                            .text {
+                                font-size: small;
+                                white-space: nowrap; 
+                                color: black;;
+                                position: absolute;
+                                overflow: hidden;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                            }
+                        }
+                          
+                    }
+                      
+                }
+            }
+        }
+    }
+}
+.cuerpo2{
+    display: inline-flex;
+    margin: 2% 2%;
+    padding: 2% 0;
+    background-color: whitesmoke;
+    .Publicidad{
+        margin: 5% 5%;
+        width: 28%;
+        img{
+            width: 100%;
+            vertical-align: middle;
+            border-style: none;
+        }
+    }
+    .Precio,.Precio2{
+        .Precio_Producto{
+            margin: 10px;
+            .row{
+                height: 160px;
+            }
+            .card-body{
+                .card-title{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    display: inline-flex;
+    color: darkgray;
+    text-align: center;
+    background-color: #343a40;
+    padding: 25px;
+    font-size: small;
+    h3{
+        font-size: large;
+        font-weight: bold;
+    }
+    .footer_info{
+        border-right: solid;
+        width: 50%;
+    }
+    .footer_Redes{
+        width: 30%;
+        img{
+            width: 13%;
+            vertical-align: middle;
+            border-style: none;
+            padding: 10px;
+        }
+    }
+}
+@media (max-width: 800px){
+    .cuerpo{
+        height: 3068px;
+        .Segundo{
+            .Segundo_uno{
+                .Segundo_uno_Pagina1{
+                    .Segundo_uno_A{
+                        display: block;
+                        .container:hover .overlay {
+                            height: 25%;
+                          }
+                        .container{
+                            width: 100%;
+                            margin: 16px 0;
+                            .overlay{
+                                .text{
+                                    font-size: medium;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cuerpo2{
+        display: block;
+        margin: 0;
+        .Publicidad{
+            width: 100%;
+            margin: 0;
+            padding: 5%;
+        }
+        .Precio,.Precio2{
+            .Precio_Producto{
+
+                .row{
+                    height: 350px;
+                    text-align: center;
+                    padding: 10px;
+                    img{
+                        width: 50%;
+                    }
+                }
+                .card-body{
+                    .card-title{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

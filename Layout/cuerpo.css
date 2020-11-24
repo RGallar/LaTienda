@@ -1,0 +1,125 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Muli', sans-serif; }
+
+.cuerpo {
+  width: 100%;
+  height: 1244px; }
+  .cuerpo .Primero .Primero_uno {
+    padding: 40px;
+    text-align: center;
+    height: 128px; }
+  .cuerpo .Segundo {
+    width: 100%;
+    padding: 0 15%; }
+    .cuerpo .Segundo .Segundo_uno {
+      width: 100%; }
+      .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 {
+        width: 100%; }
+        .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A {
+          display: inline-flex;
+          width: 100%; }
+          .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container:hover .overlay {
+            height: 15%; }
+          .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container {
+            margin: 10px;
+            padding: 0;
+            position: relative;
+            width: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+            .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container .image {
+              display: block;
+              width: 100%;
+              height: 300px; }
+            .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container .overlay {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              background: rgba(245, 245, 245, 0.9);
+              overflow: hidden;
+              width: 100%;
+              height: 0;
+              transition: .5s ease; }
+              .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container .overlay .text {
+                font-size: small;
+                white-space: nowrap;
+                color: black;
+                position: absolute;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%); }
+
+.cuerpo2 {
+  display: inline-flex;
+  margin: 2% 2%;
+  padding: 2% 0;
+  background-color: whitesmoke; }
+  .cuerpo2 .Publicidad {
+    margin: 5% 5%;
+    width: 28%; }
+    .cuerpo2 .Publicidad img {
+      width: 100%;
+      vertical-align: middle;
+      border-style: none; }
+  .cuerpo2 .Precio .Precio_Producto, .cuerpo2 .Precio2 .Precio_Producto {
+    margin: 10px; }
+    .cuerpo2 .Precio .Precio_Producto .row, .cuerpo2 .Precio2 .Precio_Producto .row {
+      height: 160px; }
+    .cuerpo2 .Precio .Precio_Producto .card-body .card-title, .cuerpo2 .Precio2 .Precio_Producto .card-body .card-title {
+      font-weight: bold; }
+
+footer {
+  width: 100%;
+  display: inline-flex;
+  color: darkgray;
+  text-align: center;
+  background-color: #343a40;
+  padding: 25px;
+  font-size: small; }
+  footer h3 {
+    font-size: large;
+    font-weight: bold; }
+  footer .footer_info {
+    border-right: solid;
+    width: 50%; }
+  footer .footer_Redes {
+    width: 30%; }
+    footer .footer_Redes img {
+      width: 13%;
+      vertical-align: middle;
+      border-style: none;
+      padding: 10px; }
+
+@media (max-width: 800px) {
+  .cuerpo {
+    height: 3068px; }
+    .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A {
+      display: block; }
+      .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container:hover .overlay {
+        height: 25%; }
+      .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container {
+        width: 100%;
+        margin: 16px 0; }
+        .cuerpo .Segundo .Segundo_uno .Segundo_uno_Pagina1 .Segundo_uno_A .container .overlay .text {
+          font-size: medium; }
+
+  .cuerpo2 {
+    display: block;
+    margin: 0; }
+    .cuerpo2 .Publicidad {
+      width: 100%;
+      margin: 0;
+      padding: 5%; }
+    .cuerpo2 .Precio .Precio_Producto .row, .cuerpo2 .Precio2 .Precio_Producto .row {
+      height: 350px;
+      text-align: center;
+      padding: 10px; }
+      .cuerpo2 .Precio .Precio_Producto .row img, .cuerpo2 .Precio2 .Precio_Producto .row img {
+        width: 50%; }
+    .cuerpo2 .Precio .Precio_Producto .card-body .card-title, .cuerpo2 .Precio2 .Precio_Producto .card-body .card-title {
+      font-weight: bold; } }
+
+/*# sourceMappingURL=cuerpo.css.map */
